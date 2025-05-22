@@ -68,7 +68,7 @@ async def get_thumb(videoid: str):
                     await f.write(await resp.read())
                     await f.close()
 
-        icons = Image.open("AnonXMusic/assets/icons.png")
+        icons = Image.open("DeadlineTech/assets/icons.png")
         youtube = Image.open(f"cache/thumb{videoid}.png")
         image1 = changeImageSize(1280, 720, youtube)
         image2 = image1.convert("RGBA")
@@ -93,9 +93,9 @@ async def get_thumb(videoid: str):
         background.paste(logo, (100, 150))
 
         draw = ImageDraw.Draw(background)
-        font_info = ImageFont.truetype("AnonXMusic/assets/font2.ttf", 28)
-        font_time = ImageFont.truetype("AnonXMusic/assets/font2.ttf", 26)
-        font_path = "AnonXMusic/assets/font3.ttf"
+        font_info = ImageFont.truetype("DeadlineTech/assets/font2.ttf", 28)
+        font_time = ImageFont.truetype("DeadlineTech/assets/font2.ttf", 26)
+        font_path = "DeadlineTech/assets/font3.ttf"
 
         title_max_width = 540
         title_lines = truncate(title, 35)
@@ -119,7 +119,7 @@ async def get_thumb(videoid: str):
         picons = icons.resize((580, 62))
         background.paste(picons, (565, 430), picons)
 
-        watermark_font = ImageFont.truetype("AnonXMusic/assets/font2.ttf", 24)
+        watermark_font = ImageFont.truetype("DeadlineTech/assets/font2.ttf", 24)
         watermark_text = "Team DeadlineTech"
         text_size = draw.textsize(watermark_text, font=watermark_font)
         x = background.width - text_size[0] - 25
