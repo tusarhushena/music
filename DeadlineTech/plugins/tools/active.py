@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 from unidecode import unidecode
 
-from AnonXMusic import app
-from AnonXMusic.misc import SUDOERS
-from AnonXMusic.utils.database import (
+from DeadlineTech import app
+from DeadlineTech.misc import SUDOERS
+from DeadlineTech.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,
