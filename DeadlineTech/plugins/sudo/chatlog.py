@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import (
     Message, InlineKeyboardButton, InlineKeyboardMarkup
 )
-from AnonXMusic import app
+from DeadlineTech import app
 from config import LOGGER_ID as JOINLOGS
 
 
