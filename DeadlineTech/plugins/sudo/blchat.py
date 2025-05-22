@@ -3,10 +3,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.misc import SUDOERS
-from AnonXMusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from AnonXMusic.utils.decorators.language import language
+from DeadlineTech import app
+from DeadlineTech.misc import SUDOERS
+from DeadlineTech.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from DeadlineTech.utils.decorators.language import language
 from config import BANNED_USERS
 
 
