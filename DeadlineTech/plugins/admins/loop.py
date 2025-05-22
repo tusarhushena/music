@@ -3,10 +3,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.utils.database import get_loop, set_loop
-from AnonXMusic.utils.decorators import AdminRightsCheck
-from AnonXMusic.utils.inline import close_markup
+from DeadlineTech import app
+from DeadlineTech.utils.database import get_loop, set_loop
+from DeadlineTech.utils.decorators import AdminRightsCheck
+from DeadlineTech.utils.inline import close_markup
 from config import BANNED_USERS
 
 
