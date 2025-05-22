@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AnonXMusic import app
-from AnonXMusic.misc import SUDOERS, db
-from AnonXMusic.utils.database import (
+from DeadlineTech import app
+from DeadlineTech.misc import SUDOERS, db
+from DeadlineTech.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,
