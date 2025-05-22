@@ -2,7 +2,7 @@ from pyrogram.types import InlineKeyboardButton
 from pyrogram.types import WebAppInfo
 
 import config
-from AnonXMusic import app
+from DeadlineTech import app
 
 
 def start_panel(_):
