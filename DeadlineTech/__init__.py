@@ -1,9 +1,9 @@
 # Powered By Team DeadlineTech
-from AnonXMusic.core.bot import Anony
-from AnonXMusic.core.dir import dirr
-from AnonXMusic.core.git import git
-from AnonXMusic.core.userbot import Userbot
-from AnonXMusic.misc import dbb, heroku
+from DeadlineTech.core.bot import Anony
+from DeadlineTech.core.dir import dirr
+from DeadlineTech.core.git import git
+from DeadlineTech.core.userbot import Userbot
+from DeadlineTech.misc import dbb, heroku
 
 from .logging import LOGGER
 
