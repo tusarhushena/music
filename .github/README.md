@@ -13,9 +13,6 @@ DeadlineTech Music
     <a href="https://github.com/deadlineTech/Music/network/members">
         <img src="https://img.shields.io/github/forks/deadlineTech/Music?color=blue&style=for-the-badge&logo=github" />
     </a>
-    <a href="https://github.com/deadlineTech/Music/blob/master/LICENSE">
-        <img src="https://img.shields.io/github/license/deadlineTech/Music?color=purple&style=for-the-badge&logo=open-source-initiative" />
-    </a>
     <a href="https://www.python.org">
         <img src="https://img.shields.io/badge/Made%20With-Python-306998?style=for-the-badge&logo=python&logoColor=yellow" />
     </a>
