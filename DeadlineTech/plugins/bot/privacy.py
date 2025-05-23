@@ -37,7 +37,7 @@ Thank you for trusting {app.mention} with your Telegram voice chat experience. W
 
 @app.on_message(filters.command("privacy"))
 async def privacy(client, message: Message):
-    await message.reply_text(
+    await message.reply_text(
         TEXT,
         parse_mode=ParseMode.MARKDOWN,
         disable_web_page_preview=True
