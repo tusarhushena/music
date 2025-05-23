@@ -145,7 +145,7 @@ HELP_14 = """
 <b>-chats</b> : ʙʀᴏᴀᴅᴄᴀsᴛ ᴛʜᴇ ᴍᴇssᴀɢᴇ ɪɴ ᴄʜᴀᴛs ᴏɴʟʏ..
 <b>-all</b> : ʙʀᴏᴀᴅᴄᴀsᴛ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ɪɴ ᴀʟʟ ᴜsᴇʀs ᴀɴᴅ ᴄʜᴀᴛs ʙᴏᴛʜ. 
 
-<b>ᴇxᴀᴍᴩʟᴇ:</b> <code>/broadcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ</code>
+<b>ᴇxᴀᴍᴩʟᴇ:</b> <code>/broadcast -all -forward ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ</code>
 """
 
 HELP_15 = """
