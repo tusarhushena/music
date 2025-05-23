@@ -33,7 +33,7 @@ last_broadcast_result = {}
 @app.on_message(filters.command("broadcast") & SUDOERS)
 @language
 async def broadcast_command(client, message, _):
-    command_text = message.text.lower()
+    command_text = message.text.lower()
     mode = "forward" if "-forward" in command_text else "copy"
 
     # Determine target audience
