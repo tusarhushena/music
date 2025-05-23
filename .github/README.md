@@ -169,18 +169,11 @@ STRING_SESSION=YOUR_STRING_SESSION
 
 ## 📄 License
 
-> Licensed under the MIT License.
-
----
-
-## 🔗 Quick Links
-
-- 💰 [Buy API Key](https://deadlinetech.site)
-- 👨‍💻 [Developer](https://t.me/DeadlineTechOwner)
-- 🛠️ [Support](https://t.me/DeadlineTechSupport)
+> Licensed under the <b>MIT License</b>.
+See <a href="https://github.com/deadlineTech/Music/blob/master/LICENSE">LICENSE</a> for details.
 
 ---
 
 <p align="center">
-  <b>Made with ❤️ by <a href="https://t.me/DeadlineTechTeam">DeadlineTech</a></b>
+  <b>Thanks for visiting 🍂❣️</b>
 </p>
