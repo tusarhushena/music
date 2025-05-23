@@ -150,34 +150,6 @@ async def broadcast_command(client, message, _):
 
     await status_msg.edit_text(final_summary)
 
-    last_broadcast_result.update({
-        "mode": mode,
-        "total": total_targets,
-        "sent": sent_count,
-        "sent_users": sent_to_users,
-        "sent_chats": sent_to_chats,
-        "failed": failed_count,
-        "time": total_time
-    })
-
-
-@app.on_message(filters.command("broadcaststats") & SUDOERS)
-async def broadcast_stats(_, message):
-    if not last_broadcast_result:
-        return await message.reply_text("No broadcast run yet.")
-
-    res = last_broadcast_result
-    await message.reply_text(
-        f"<b>📜 Last Broadcast Report:</b>\n\n"
-        f"Mode: <code>{res['mode']}</code>\n"
-        f"Total Targets: <code>{res['total']}</code>\n"
-        f"Successful: <code>{res['sent']}</code> 🟢\n"
-        f"  ├─ Users: <code>{res['sent_users']}</code>\n"
-        f"  └─ Chats: <code>{res['sent_chats']}</code>\n"
-        f"Failed: <code>{res['failed']}</code> 🔴\n"
-        f"Time Taken: <code>{res['time']}</code> seconds ⏰"
-    )
-
 
 
 async def auto_clean():
