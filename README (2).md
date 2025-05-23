@@ -51,31 +51,39 @@ DeadlineTech Music
 
 ---
 
-## 📜 Commands Introduction
+## 📜 Command Guide
 
-### 🎵 Music Playback
-- `/play <song name or YouTube URL>` – Play audio.
-- `/vplay <video name or URL>` – Play video.
-- `/pause` – Pause current song.
-- `/resume` – Resume paused song.
-- `/skip` – Skip current song.
-- `/end` – End music and clear queue.
+### 🎵 Music Controls
+| Command | Description |
+|--------|-------------|
+| `/play <name/link>` | Play audio from YouTube/Spotify/etc |
+| `/vplay <name/link>` | Play video in videochat |
+| `/pause` | Pause current song |
+| `/resume` | Resume playback |
+| `/skip` | Skip current song |
+| `/end` | End stream & clear queue |
 
-### 🧰 Utilities
-- `/start` – Start bot.
-- `/help` – Help menu.
-- `/ping` – Check ping.
-- `/stats` – Bot stats.
+### 📋 Queue Commands
+| Command | Description |
+|--------|-------------|
+| `/queue` | Show current song queue |
+| `/loop` | Toggle loop |
+| `/shuffle` | Shuffle queue order |
 
-### 🎛️ Admin Controls
-- `/auth` – Authorize user.
-- `/unauth` – Remove auth.
-- `/authusers` – List authorized users.
+### 🛠 Admin Commands
+| Command | Description |
+|--------|-------------|
+| `/auth` | Add user to admin list |
+| `/unauth` | Remove user from admin list |
+| `/authusers` | Show admin list |
 
-### 📋 Queue System
-- `/queue` – Show queue.
-- `/shuffle` – Shuffle queue.
-- `/loop` – Toggle loop.
+### 🔧 Tools
+| Command | Description |
+|--------|-------------|
+| `/start` | Welcome message |
+| `/help` | Full command list |
+| `/ping` | Ping check |
+| `/stats` | Bot stats & system usage |
 
 ---
 
