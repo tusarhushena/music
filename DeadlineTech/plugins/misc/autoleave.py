@@ -8,9 +8,10 @@ from pyrogram.enums import ChatType
 from pyrogram.types import Message
 
 import config
-from DeadlineTech import app, SUDOERS
+from DeadlineTech import app
 from DeadlineTech.core.call import Anony, autoend
 from DeadlineTech.utils.database import get_client, is_active_chat, is_autoend
+from DeadlineTech.misc import SUDOERS
 
 # Runtime Toggles
 AUTO_END_ENABLED = True
