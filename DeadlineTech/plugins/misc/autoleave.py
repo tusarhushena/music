@@ -31,7 +31,7 @@ async def toggle_auto_end(_, message: Message):
     global AUTO_END_ENABLED
     AUTO_END_ENABLED = not AUTO_END_ENABLED
     state = "enabled" if AUTO_END_ENABLED else "disabled"
-    await message.reply_text(f"✅ Auto End has been **{state}**.")
+    await message.reply_text(f"✅ Auto End has been <b>{state}</b>.")
 
 
 # Command to toggle auto_leave
@@ -40,7 +40,7 @@ async def toggle_auto_leave(_, message: Message):
     global AUTO_LEAVE_ENABLED
     AUTO_LEAVE_ENABLED = not AUTO_LEAVE_ENABLED
     state = "enabled" if AUTO_LEAVE_ENABLED else "disabled"
-    await message.reply_text(f"✅ Auto Leave has been **{state}**.")
+    await message.reply_text(f"✅ Auto Leave has been <b>{state}</b>.")
 
 
 # Auto Leave Assistant at 4 AM Daily
