@@ -26,7 +26,7 @@ def seconds_until_4am(now):
 
 
 # Command to toggle auto_end
-@app.on_message(filters.command("auto_end") & filters.user(SUDOERS))
+@app.on_message(filters.command("auto_end") & SUDOERS)
 async def toggle_auto_end(_, message: Message):
     global AUTO_END_ENABLED
     AUTO_END_ENABLED = not AUTO_END_ENABLED
@@ -35,7 +35,7 @@ async def toggle_auto_end(_, message: Message):
 
 
 # Command to toggle auto_leave
-@app.on_message(filters.command("auto_leave") & filters.user(SUDOERS))
+@app.on_message(filters.command("auto_leave") & SUDOERS)
 async def toggle_auto_leave(_, message: Message):
     global AUTO_LEAVE_ENABLED
     AUTO_LEAVE_ENABLED = not AUTO_LEAVE_ENABLED
