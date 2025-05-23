@@ -153,13 +153,13 @@ STRING_SESSION=YOUR_STRING_SESSION
 
 ## 🤝 Support & Community
 
-- [📢 Announcements Channel](https://t.me/DeadlineTechTeam)
-- 💬[Support Group](https://t.me/DeadlineTechSupport)
+- 📢 [Announcements Channel](https://t.me/DeadlineTechTeam)
+- 💬 [Support Group](https://t.me/DeadlineTechSupport)
 - 🧑‍💻 [Developer Contact](https://t.me/DeadlineTechOwner)
 
 ---
 
-## ⚡Credits
+## ⚡ Credits
 
 - Base Framework: [Anon Music](https://github.com/AnonymousX1025/AnonXMusic)
 - Enhanced by: [DeadlineTech Team](https://telegram.me/DeadlineTechTeam)
